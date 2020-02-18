@@ -22,6 +22,11 @@
                     <div class="product"></div>
             </div>
             <div class="homeBottomContainer">
+
+                <div class="our-brands">
+                    <h1>Our Top selling brands</h1>
+                    <p>We have all major brand's products, like proien powders from OPTIMUM NUTRITION, GARDEN OF LIFE, NAKED NUTRITION, RSP NUTRITION, equipments from Precor, Life Fitness, TechnoGym</p>
+                </div>
                 <div class="customer">
                     <h1>Customers Come First</h1>
                     <p>Our single-minded focus is helping you achieve your goals. If your motivation is flagging, we've got your back. We're obsessed with creating the best fitness site out there because we love hearing about your success once you’ve implemented our fitness solutions.</p>

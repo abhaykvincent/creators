@@ -37,6 +37,10 @@
 .homeBottomContainer{
     width: 100%;
 }
+.our-brands{
+    padding: 10px 20%;
+    text-align: center;
+}
 .customer{
     display: inline-block;
     float: left;
