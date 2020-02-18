@@ -14,19 +14,7 @@
                 </div>
                 <div class="about-main">
                     <h1>Services</h1>
-                    <div class="service">
-                        <h3>Workout Plans</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ab, at animi laborum in dignissimos.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Fitness Products</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laborum a soluta nihil! Ullam provident deleniti, praesentium totam repudiandae neque!</p>
-                    </div>
-                    <div class="service">
-                        <h3>Articles</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, architecto?
-                        </p>
-                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error recusandae obcaecati alias odio incidunt labore facere excepturi laudantium culpa, ad esse necessitatibus ipsum delectus quia aspernatur ratione consectetur consequuntur dolorem.</p>
                 </div>
             </div>
 
