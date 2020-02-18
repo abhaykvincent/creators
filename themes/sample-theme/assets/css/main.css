@@ -7,6 +7,11 @@ body{
 
 /* Fonts Done */
 
+footer{
+    background-color: rgb(170, 170, 170);
+    padding: 20px;
+    color: white;
+}
 
 .home-banner {
     width: 100vw;
