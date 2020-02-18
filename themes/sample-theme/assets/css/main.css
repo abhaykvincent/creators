@@ -69,8 +69,8 @@ footer{
 
 .customer {
     display: inline-block;
-    width: 45vw;
-    margin: 2.5vw;
+    max-width: 45vw;
+    margin: 2.5vw 2vw;
     padding: 20px;
     box-sizing: border-box;
     min-height: 300px;
@@ -78,9 +78,10 @@ footer{
 }
 
 .offer {
+    float: right;
     display: inline-block;
     width: 45vw;
-    margin: 2.5vw;
+    margin: 2.5vw 2vw;
     padding: 20px;
     box-sizing: border-box;
     min-height: 300px;
