@@ -169,7 +169,7 @@ footer{
 } */
 
 .site-header{
-    background-color: #333;
+    height: 20px;
 }
 .site-title{
     float: right;
@@ -177,6 +177,8 @@ footer{
 .site-title>a{
     color: black;
     text-decoration: none;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 div.nav-menu ul {
     list-style: none;
@@ -243,7 +245,7 @@ div.nav-menu .children .children {
 /* Footer */
 footer {
     height: 100px;
-    background: rgb(156, 156, 156)53, 49, 49);
+    background: rgb(156, 156, 156);
 }
 
 
