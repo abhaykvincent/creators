@@ -3,7 +3,7 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-            <div class="home-banner"><img src="<?php bloginfo('template_url')?>/assets/img/home-banner.png" alt=""></div>
+            <div class="home-banner"><img src="<?php bloginfo('template_url')?>/assets/img/home-banner.jpeg" alt=""></div>
             <div class="home-main">
                 <div class="home-intro">
 
