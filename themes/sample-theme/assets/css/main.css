@@ -1,6 +1,9 @@
 .home-banner{
     width: 100vw;
 }
+.site-header{
+    background-color: grey;
+}
 .home-banner img{
     width: 100vw;
 }
