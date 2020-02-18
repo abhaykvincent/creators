@@ -1,59 +1,45 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Sample_Theme
- */
-
-get_header();
+<?php /* Template Name: Home*/get_header();
 ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+            <div class="home-banner"><img src="<?php bloginfo('template_url')?>/assets/img/home-banner.png" alt=""></div>
+            <div class="home-main">
+                <div class="home-intro">
 
-		<?php
-		if ( have_posts() ) :
+                    <h1>Max Fitness</h1>
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
+                    <div class="intro-img"><img src="<?php bloginfo('template_url')?>/assets/img/intro-img.jpg" alt=""></div>
+                    <p>We are MaxFitness. Your transformation is our passion. We are your personal trainer, nutritionst, your suppliment expert, your lifting partner. We provide the tools, and products you need to burn fat, build muscle, and become your best self</p>
+                </div>
+            </div>
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+            <div class="products">
+                <h1>Products</h1>
+                    <div class="product"></div>
+                    <div class="product"></div>
+                    <div class="product"></div>
+                    <div class="product"></div>
+            </div>
+            <div class="homeBottomContainer">
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
+                <div class="our-brands">
+                    <h1>Our Top selling brands</h1>
+                    <p>We have all major brand's products, like proien powders from OPTIMUM NUTRITION, GARDEN OF LIFE, NAKED NUTRITION, RSP NUTRITION, equipments from Precor, Life Fitness, TechnoGym</p>
+                </div>
+                <div class="customer">
+                    <h1>Customers Come First</h1>
+                    <p>Our single-minded focus is helping you achieve your goals. If your motivation is flagging, we've got your back. We're obsessed with creating the best fitness site out there because we love hearing about your success once you’ve implemented our fitness solutions.</p>
+                </div>
+                <div class="offer">
+                    <h1> 20% Off on First Purchase!</h1>
+                    <p>Get upto 20% on Capsule, Pill, Liquid from brands like  Doctor's Best, NOW, Irwin Naturals</p>
+                </div>
+            </div>
+		
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
-get_footer();
+get_footer();?>
