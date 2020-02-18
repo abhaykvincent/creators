@@ -14,27 +14,23 @@
                 </div>
             </div>
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
+			<div class="products">
+                <h1>Products</h1>
+                    <div class="product"></div>
+                    <div class="product"></div>
+                    <div class="product"></div>
+                    <div class="product"></div>
+            </div>
+            <div class="homeBottomContainer">
+                <div class="customer">
+                    <h1>Customers Come First</h1>
+                    <p>Our single-minded focus is helping you achieve your goals. If your motivation is flagging, we've got your back. We're obsessed with creating the best fitness site out there because we love hearing about your success once you’ve implemented our fitness solutions.</p>
+                </div>
+                <div class="offer">
+                    <h1> 20% Off on First Purchase!</h1>
+                    <p>Get upto 20% on Capsule, Pill, Liquid from brands like  Doctor's Best, NOW, Irwin Naturals</p>
+                </div>
+            </div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
