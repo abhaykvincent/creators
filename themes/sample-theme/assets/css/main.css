@@ -1,31 +1,39 @@
-\.home-banner{
+.home-banner {
     width: 100vw;
 }
-.home-banner img{
+
+.home-banner img {
     width: 100vw;
 }
-.home-main{
+
+.home-main {
     padding: 10px 20%;
 }
-.home-intro{
-    font-size: 150%;;
+
+.home-intro {
+    font-size: 150%;
+    ;
 }
-.home-intro h1{
+
+.home-intro h1 {
     margin: 0px;
     text-align: center;
 }
-.intro-img{
+
+.intro-img {
     text-align: center;
 }
-.intro-img img{
+
+.intro-img img {
     width: 60%
 }
 
-.products{
+.products {
     text-align: center;
     width: 100VW;
 }
-.product{
+
+.product {
     display: inline-block;
     position: relative;
     width: 20%;
@@ -34,33 +42,188 @@
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.308);
 }
-.homeBottomContainer{
+
+.homeBottomContainer {
     width: 100%;
 }
-.our-brands{
+
+.our-brands {
     padding: 10px 20%;
     text-align: center;
 }
-.customer{
-    display: inline-block;
-    float: left;
-    width: 45vw;
-    margin: 2.5vw;
-    padding: 20px;
-    box-sizing: border-box;
-    min-height: 300px;
-    background-color: rgb(0, 0, 0,0.1);
-}
-.offer{
+
+.customer {
     display: inline-block;
     width: 45vw;
     margin: 2.5vw;
     padding: 20px;
     box-sizing: border-box;
     min-height: 300px;
-    background-color: rgb(0, 0, 0,0.1);
+    background-color: rgb(0, 0, 0, 0.1);
 }
 
+.offer {
+    display: inline-block;
+    width: 45vw;
+    margin: 2.5vw;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 300px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+/* header menu css */
+/* .header {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.navigation-main {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        left: -999em; 
+    }
+
+    li {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+    
+        
+        &:hover {
+            ul {
+                left: auto;
+            }
+        }
+
+        
+        li {
+            display: block;
+
+            &:hover {
+                >ul {
+                    left: 100%;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    background-color: #145474;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.navigation-main {
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        white-space: nowrap;
+        padding: 10px 15px;
+    }
+
+    a:hover {
+        color: #ffcc03;
+    }
+
+    ul {
+        background-color: #145474;
+    }
+} */
+
+.navigation{
+    position: relative;
+    z-index: 1000;
+    padding: 11px 0 0;
+    }
+    nav{
+    margin: 0;
+    padding: 0;
+    }
+    nav li{
+    float: left;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0 38px 0 0;
+    position: relative;
+    }
+    nav li:last-child{
+    margin: 0;
+    }
+    nav li a{
+    color: #1d4653;
+    display: block;
+    padding: 0 0 27px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+    nav li a:hover, .nav li.current_page_item a{
+    color: #009ad1;
+    }
+    nav li ul{
+    position: absolute;
+    width: 220px;
+    top: 53px;
+    left: 0;
+    background-color: #FFF;
+    border-bottom: 3px solid #009ad1;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
+    /* display: none;*/
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    }
+    nav li:hover ul{
+    transform: scale(1);
+    visibility: visible;
+    }
+    nav li ul li{
+    float: none;
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    border-top: 1px solid #f0f5f8;
+    }
+    nav li ul li a{
+    padding: 8px 10px;
+    color: #009ad1;
+    }
+    nav li ul li a:hover{
+    color: #faa126;
+    }
+
+
+
+/* Header menu css end */
 
 
 
@@ -69,9 +232,10 @@
 
 
 /* about page */
-.service{
+.service {
     border-radius: 10px;
     background-color: rgba(10, 48, 80, 0.2);
     padding: 5px 20px;
-    box-sizing: border-box;margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
