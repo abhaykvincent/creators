@@ -1,13 +1,5 @@
-.home-banner{
+\.home-banner{
     width: 100vw;
-}
-.site-header{
-    background-color: grey;
-}
-.site-footer{
-    background-color: grey;
-    height: 10%;
-    max-width: 100%;
 }
 .home-banner img{
     width: 100vw;
