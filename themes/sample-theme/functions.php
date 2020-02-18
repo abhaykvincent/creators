@@ -133,7 +133,6 @@ function sample_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'sample_theme_scripts' );
 
-
 /**
  * Custom template tags for this theme.
  */
