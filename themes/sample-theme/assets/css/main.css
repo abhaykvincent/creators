@@ -152,83 +152,83 @@
     }
 } */
 
-.navigation{
-    position: relative;
-    z-index: 1000;
-    padding: 11px 0 0;
-    }
-    nav{
+.site-header{
+    background-color: #333;
+}
+.site-title{
+    float: right;
+}
+.site-title>a{
+    color: black;
+    text-decoration: none;
+}
+div.nav-menu ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    }
-    nav li{
-    float: left;
-    font-size: 19px;
-    line-height: 26px;
-    font-weight: 700;
-    margin: 0 38px 0 0;
+}
+div.nav-menu li {
     position: relative;
-    }
-    nav li:last-child{
-    margin: 0;
-    }
-    nav li a{
-    color: #1d4653;
+    line-height: 1.7;
+}
+div.nav-menu a {
+    color: #333;
+    text-decoration: none;
     display: block;
-    padding: 0 0 27px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    }
-    nav li a:hover, .nav li.current_page_item a{
-    color: #009ad1;
-    }
-    nav li ul{
+}
+div.nav-menu > ul > li {
+    float: left;
+}
+div.nav-menu > ul > li > a{
+    padding: 10px 10px;
+}
+div.nav-menu > ul > li:hover > a{
+    background: rgb(160, 149, 149);
+}
+
+/* Sub/Children Menu */
+div.nav-menu .sub-menu,
+div.nav-menu .children {
     position: absolute;
-    width: 220px;
-    top: 53px;
     left: 0;
-    background-color: #FFF;
-    border-bottom: 3px solid #009ad1;
-    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
-    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.20);
-    /* display: none;*/
-    transform: scaleY(0);
-    transform-origin: 0 0 0;
-    transition: all 0.3s ease 0s;
-    visibility: hidden;
-    }
-    nav li:hover ul{
-    transform: scale(1);
-    visibility: visible;
-    }
-    nav li ul li{
-    float: none;
-    margin: 0;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 600;
-    border-top: 1px solid #f0f5f8;
-    }
-    nav li ul li a{
-    padding: 8px 10px;
-    color: #009ad1;
-    }
-    nav li ul li a:hover{
-    color: #faa126;
-    }
+    top: 100%;
+    z-index: 1;
+    background: #333;
+    min-width: 200px;
+    display: none;
+}
+div.nav-menu li:hover > .sub-menu,
+div.nav-menu li:hover > .children {
+    display: block;
+}
+div.nav-menu .sub-menu a,
+div.nav-menu .children a {
+    padding: 5px 10px;
+}
+div.nav-menu .sub-menu li:hover a,
+div.nav-menu .children li:hover a {
+    background: #444;
+}
 
-
+/* Grandchildren Menu */
+div.nav-menu .sub-menu .sub-menu,
+div.nav-menu .children .children {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: #444;
+}
 
 /* Header menu css end */
 
 
 
 
-
+/* Footer */
+footer {
+    height: 100px;
+    background: rgb(156, 156, 156)53, 49, 49);
+}
 
 
 /* about page */
